@@ -5,7 +5,6 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.sefakose.kotlintodoapp.databinding.ItemCardViewBinding
-import java.util.zip.Inflater
 
 class ToDoAdapter(private val list:ArrayList<Item>): RecyclerView.Adapter<ToDoAdapter.ItemViewHolder>() {
     inner class ItemViewHolder(private val binding: ItemCardViewBinding) :
